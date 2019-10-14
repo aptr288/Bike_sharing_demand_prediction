@@ -1,2 +1,2 @@
 # SparkML
-This repository will contain all the Machine Learning challanges I am working on using spark framework so that it can scale well with bigger dataset. 
+This repository will contains Bike sharing demand project  using PySpark framework so that it can scale well with bigger dataset. 
