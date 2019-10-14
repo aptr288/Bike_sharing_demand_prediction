@@ -7,13 +7,13 @@ Initial Data Exploration and Transformation is done in data bricks platform and 
 this codebase as Ipython Notebook which explicitly displays each intermediate result and model
 performances.
 
-* **bike_sharing_model_generation.py** <br/>
+* **bs_model_generation_codebase.py** <br/>
 This file is used to give a trained model taking training files as input by cleaning them and using
 one of the algorithms which gave best results **GBTRegressor** which gave least root mean
 square error. This pyspark code gives trained model files as **bike_sharing_gbt_file.model**
 
 
-* **bike_sharing_prediction.py** <br/>
+* **bs_prediction_generator.py** <br/>
 This file is uses the model generated out of previous file and predicts the bike sharing demand
 on the test files given. Then finally outputs the predictions as csv file with name **predictions.csv**
 and also saves them in RDBMS. 
