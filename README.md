@@ -1,4 +1,4 @@
-# SparkML
+# BS_Spark_Project 
 
 This repository contains Bike sharing demand project using Spark framework, to so solve machine learning challengs with huge datasets with pyspark, flume and sparkstreaming.
 
