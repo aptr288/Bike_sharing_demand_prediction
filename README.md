@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # SparkML
 
 This repository contains Bike sharing demand project using Spark framework, to so solve machine learning challengs with huge datasets with pyspark, flume and sparkstreaming.
@@ -70,5 +69,3 @@ Compile and run the spark streaming program <br/>
 
 ```
 spark2-submit --jzars mysql-connector-java-8.0.12.jar --class bikesharing.BikeStreaming --deploy-mode client target/scala-2.11/sparkme-project_2.11-1.0.jar
->>>>>>> ecda965ed7d38f5c011c590f3c3fcc5bd6697ef2
-```
