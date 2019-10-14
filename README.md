@@ -22,13 +22,13 @@ and also saves them in RDBMS.
 The streaming prediction is done in scala it uses existing model generated and flume to stream
 the features and predict the demand then finally push them to RDBMS.
 
-Screenshots of results pushed to RDBMS are are shown in **Project Report Bicycle Sharing Demand Prediction.pdf**
 
 * **Instructions to run flume and spark job** <br/>
 Command to run flume <br/>
 ```
 flume-ng agent -n bs_agent -c conf -f bs_flume.conf - Dflume.root.logger=INFO,console
 ```
+![alt text](https://github.com/aptr288/Bike_sharing_demand_prediction/blob/master/files/flumecommand.png)
 Compile and run the spark streaming program <br/>
 
 ```
